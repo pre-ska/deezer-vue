@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import Magnify from "vue-material-design-icons/Magnify.vue";
 import Bell from "vue-material-design-icons/Bell.vue";
+import SideMenuItem from "./components/SideMenuItem.vue";
 </script>
 
 <template>
