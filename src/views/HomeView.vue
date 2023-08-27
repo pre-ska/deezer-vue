@@ -1,6 +1,6 @@
 <script setup>
 import MixesInspiredBy from "../components/MixesInspiredBy.vue";
-// import MultiArtistSelect from "../components/MultiArtistSelect.vue";
+import MultiArtistSelect from "../components/MultiArtistSelect.vue";
 // import CustomCarousel from "../components/CustomCarousel.vue";
 // import Highlights from "../components/Highlights.vue";
 </script>
@@ -97,7 +97,56 @@ import MixesInspiredBy from "../components/MixesInspiredBy.vue";
 
       <div class="py-3"></div>
 
-      <div class="flex justify-start gap-7"></div>
+      <div class="flex justify-start gap-7">
+        <MultiArtistSelect
+          class="w-1/4"
+          category="daily"
+          text="Featuring Bring Me the Horizon, Our Last Night, Bad Omens, The Retaliators"
+          to="/artist"
+          :images="{
+            one: 'https://picsum.photos/id/45/300/300',
+            two: 'https://picsum.photos/id/55/300/300',
+            three: 'https://picsum.photos/id/54/300/300',
+            four: 'https://picsum.photos/id/76/300/300',
+          }"
+        />
+        <MultiArtistSelect
+          class="w-1/4"
+          category="daily"
+          text="Featuring Metallica, Jessye Norman, Dresdner Philharmonie, San Francisco Symphony"
+          to="/artist"
+          :images="{
+            one: 'https://picsum.photos/id/123/300/300',
+            two: 'https://picsum.photos/id/141/300/300',
+            three: 'https://picsum.photos/id/111/300/300',
+            four: 'https://picsum.photos/id/212/300/300',
+          }"
+        />
+        <MultiArtistSelect
+          class="w-1/4"
+          category="daily"
+          text="Featuring Panter, Alden Karik, Arturiko, Krista Masalta"
+          to="/artist"
+          :images="{
+            one: 'https://picsum.photos/id/65/300/300',
+            two: 'https://picsum.photos/id/98/300/300',
+            three: 'https://picsum.photos/id/78/300/300',
+            four: 'https://picsum.photos/id/74/300/300',
+          }"
+        />
+        <MultiArtistSelect
+          class="w-1/4"
+          category="daily"
+          text="Featuring Machine Gun Kelly, Girlfriends, Mod Sun, Chri$tian Gate$"
+          to="/artist"
+          :images="{
+            one: 'https://picsum.photos/id/242/300/300',
+            two: 'https://picsum.photos/id/121/300/300',
+            three: 'https://picsum.photos/id/221/300/300',
+            four: 'https://picsum.photos/id/188/300/300',
+          }"
+        />
+      </div>
     </div>
 
     <div class="px-8 mt-8 min-w-[800px]">

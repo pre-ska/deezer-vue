@@ -46,7 +46,7 @@ const { by, images, text, to } = toRefs(props);
         </div>
         <div class="truncate w-full ml-4">
           <p
-            class="hover:underline truncate max-w-[95%] text-gray-200 font-light text-[15px] cursor-pointer"
+            class="hover:underline w-fit truncate max-w-[95%] text-gray-200 font-light text-[15px] cursor-pointer"
           >
             {{ text }}
           </p>
